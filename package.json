@@ -1,0 +1,43 @@
+{
+  "name": "maxilo-vue-bootstrap-component",
+  "version": "1.0.3",
+  "description": "vue component for pc",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "keywords": [
+    "bootstrap",
+    "vue",
+    "maxilo",
+    "conponment"
+  ],
+  "author": "maxilo",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "ant-design-vue": "^1.2.1",
+    "canvas-datagrid": "^0.22.6",
+    "echarts": "^4.2.0-rc.2",
+    "echarts-gl": "^1.1.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "maxilo-vue": "^1.2.89",
+    "maxilo-vue-bootstrap-component": "^1.0.89",
+    "text-mask-core": "^5.1.1",
+    "vue-color": "^2.7.0",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

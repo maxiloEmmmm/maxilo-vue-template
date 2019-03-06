@@ -1,0 +1,32 @@
+@import "../font-awesome.min.css";
+@import "./normalize.css";
+@import "../animate.min.css";
+
+
+/*公共样式***********************************/
+body{font-family: "Microsoft YaHei";word-break: break-all; word-wrap:break-word;}
+h3,h4,h5{margin: 0px;}
+p{font-size: 13px;letter-spacing: 3px;color:#495060;}
+a{text-decoration:none;color:#495060;}
+a:hover{color: #ff2d31;text-decoration:none;}
+ul li{list-style-type:none;margin:10px;}
+/*动态***********************************/
+.slide-fade-enter-active, .slide-fade-leave-active{
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -moz-transition-property: all;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-property: all;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -ms-transition-property: all;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}

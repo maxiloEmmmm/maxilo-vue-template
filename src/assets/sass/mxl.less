@@ -1,0 +1,38 @@
+.mxl-edit-box.editing {
+    border: 1px dashed #000;
+}
+.mxl-edit-box-point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #525672;
+    display: none;
+    &.top, &.bottom {
+        left: 50%;
+        margin-left: -5px;
+    }
+    &.left, &.right {
+        top: 50%;
+        margin-top: -5px;
+    }
+    &.top {
+        top: -5px;
+    }
+    &.bottom {
+        bottom: -5px;
+    }
+    &.left {
+        left: -5px;
+    }
+    &.right {
+        right: -5px;
+    }
+    &.bottom-right {
+        right: -5px;
+        bottom: -5px;
+    }
+}
+.mxl-edit-box.editing .mxl-edit-box-point {
+    display: inline-block;
+}
