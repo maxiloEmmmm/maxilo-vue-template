@@ -18,18 +18,10 @@
   "author": "maxilo",
   "license": "MIT",
   "dependencies": {
-    "animate.css": "^3.7.0",
-    "ant-design-vue": "^1.2.1",
-    "canvas-datagrid": "^0.22.6",
-    "echarts": "^4.2.0-rc.2",
-    "echarts-gl": "^1.1.1",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "maxilo-vue": "^1.2.89",
-    "maxilo-vue-bootstrap-component": "^1.0.89",
-    "text-mask-core": "^5.1.1",
-    "vue-color": "^2.7.0",
-    "xlsx": "^0.14.1"
+    "maxilo-vue-bootstrap-component": "^1.0.89"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",

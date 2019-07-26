@@ -1,1 +1,1 @@
-import './report'
+import './test'

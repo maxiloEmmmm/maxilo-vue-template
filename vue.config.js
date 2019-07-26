@@ -11,20 +11,6 @@ module.exports = {
   devServer: {
     hotOnly:true,
   },
-  css: {
-    loaderOptions: {
-      less: {
-        modifyVars: {
-          'text-color': '#000',
-          'heading-color': '#000',
-          'border-color-base': '#000',
-          'primary-color': '#000',
-          'border-radius-base': '0'
-        },
-        javascriptEnabled: true
-      }
-    }
-  },
   pages: {
     index: {
       // page 的入口
