@@ -1,29 +1,17 @@
 {
-  "name": "maxilo-vue-bootstrap-component",
-  "version": "1.0.3",
-  "description": "vue component for pc",
-  "main": "dist/index.js",
-  "private": true,
+  "name": "projectname",
+  "version": "0.0.1",
+  "description": "project",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "keywords": [
-    "bootstrap",
-    "vue",
-    "maxilo",
-    "conponment"
-  ],
-  "author": "maxilo",
-  "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "maxilo-vue": "^1.2.89",
-    "maxilo-vue-bootstrap-component": "^1.0.89"
-  },
-  "devDependencies": {
+    "maxilo-vue": "^2.0.4",
+    "maxilo-vue-ysz-ui": "^0.0.7",
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",

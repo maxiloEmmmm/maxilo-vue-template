@@ -1,6 +1,6 @@
 import maxiloVue from 'maxilo-vue';
 import App from './App';
-import './router';
+import './route';
 import './config';
 import './store';
 import './i18n';
