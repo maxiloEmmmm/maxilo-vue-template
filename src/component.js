@@ -13,9 +13,9 @@ import {
     Tree,
     Icon,
     Divider,
-    Message,
+    message,
     Tabs,
-    Notification,
+    notification,
     Popover,
     Tag,
     DatePicker,
@@ -69,8 +69,8 @@ maxiloVue.vue.use(Col)
 maxiloVue.vue.use(Menu)
 maxiloVue.vue.use(Affix)
 maxiloVue.vue.use(function(Vue){
-    Vue.prototype.$message = Message
-    Vue.prototype.$notification = Notification
+    Vue.prototype.$message = message
+    Vue.prototype.$notification = notification
     Vue.prototype.$info = Modal.info
     Vue.prototype.$success = Modal.success
     Vue.prototype.$error = Modal.error
