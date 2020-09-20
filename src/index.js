@@ -3,7 +3,7 @@ import App from './App';
 import './route';
 import './config';
 import './store';
-import './i18n';
+import './validate';
 import './utils';
 import './component';
 

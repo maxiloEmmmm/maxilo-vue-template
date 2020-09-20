@@ -1,5 +1,3 @@
 import maxiloVue from 'maxilo-vue';
-import './middleware'; 
-let $router = maxiloVue.router.getRoute();
-
-$router.add('/', () => import('./page'));
+let router = maxiloVue.make("router").getRoute()
+router.add('/', () => import('./page'));

@@ -6,11 +6,26 @@ function resolve(dir) {
 
 module.exports = {
   //子网站使用
-  // baseUrl: '/xx/',
+  // publicPath: process.env.NODE_ENV === 'production' ? '/xxx' : '/xx',
   // outputDir: 'xx',
-  devServer: {
-    hotOnly:true,
+  css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
   },
+  // devServer: {
+  //   proxy: {
+  //     '/api': {
+  //       target: 'http://api',
+  //       changeOrigin: true,
+  //       pathRewrite: {
+  //         '^/api': ''
+  //       }
+  //     },
+  //   }
+  // },
   pages: {
     index: {
       // page 的入口
